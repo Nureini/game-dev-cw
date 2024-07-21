@@ -368,6 +368,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e94a088b4791b4c3fa138d240a7da87e, type: 3}
+--- !u!114 &1216037826 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8253278992359610424, guid: e94a088b4791b4c3fa138d240a7da87e, type: 3}
+  m_PrefabInstance: {fileID: 1216037825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1351359543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -657,6 +668,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1088549514666344058, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088549514666344058, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+      propertyPath: sensitivity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088549514666344058, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+      propertyPath: characterController
+      value: 
+      objectReference: {fileID: 1944649267}
+    - target: {fileID: 1237416043295960228, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+      propertyPath: newScene
+      value: NightScene
+      objectReference: {fileID: 0}
     - target: {fileID: 1307387932047445890, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.34
@@ -697,15 +724,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4202978303932510893, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 1216037826}
     - target: {fileID: 6008132688620980388, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8188657213346264986, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+      propertyPath: newScene
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8188657213346264986, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+--- !u!143 &1944649267 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 7138200554923663608, guid: 79f58383c7b79423c97dc9e02e7ed5a8, type: 3}
+  m_PrefabInstance: {fileID: 1944649266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2265635667115706653
 PrefabInstance:
   m_ObjectHideFlags: 0

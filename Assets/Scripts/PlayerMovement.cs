@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController characterController;
     private Vector3 movement;
-    public float speed = 20f;
-    public float sensitivity = 7f;
+    public float speed = 10f;
+    public float sensitivity = 2f;
     private float jumpingVelocity = 0f;
     public float jumpForce = 5f;
     private float cameraRotation = 0f;

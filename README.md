@@ -1,8 +1,19 @@
 # Survival Game
 
+## Prerequisites
+
+Before cloning the repository, ensure you have Git LFS installed. This is necessary to correctly clone all files, especially those stored in LFS.
+
+```sh
+git lfs install
+
+git clone https://github.com/Nureini/game-dev-cw.git
+```
+
 ## Table of Contents
 
 - [Survival Game](#survival-game)
+  - [Prerequisites](#prerequisites)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Controls](#controls)
